@@ -2,58 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Harmoniq</title>
+    <title>Harmoniq | Relax & Sleep</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-            background-color: #faf7f0;
-            color: #1f2937;
+            background-color: #0f172a;
+            color: #f1f5f9;
             line-height: 1.6;
             padding: 24px;
             max-width: 800px;
             margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 100vh;
             text-align: center;
         }
 
         h1 {
-            font-size: 36px;
+            font-size: 48px;
             margin-bottom: 8px;
+            color: #fbbf24; /* FrequencyGold matches your app theme */
+            letter-spacing: -1px;
         }
 
-        p {
-            margin-top: 12px;
-            font-size: 16px;
+        .subtitle {
+            font-size: 20px;
+            color: #94a3b8;
+            margin-bottom: 32px;
+            font-weight: 300;
+        }
+
+        .container {
+            background: rgba(30, 41, 59, 0.5);
+            padding: 40px;
+            border-radius: 24px;
+            border: 1px solid rgba(251, 191, 36, 0.1);
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 24px;
         }
 
         a {
             display: inline-block;
-            margin-top: 24px;
             font-size: 16px;
-            color: #2563eb;
+            color: #fbbf24;
             text-decoration: none;
             font-weight: 500;
+            padding: 12px 24px;
+            border: 1px solid rgba(251, 191, 36, 0.3);
+            border-radius: 12px;
+            transition: all 0.2s ease;
+        }
+
+        a:hover {
+            background: rgba(251, 191, 36, 0.1);
+            border-color: #fbbf24;
         }
 
         footer {
-            margin-top: 48px;
-            font-size: 14px;
-            color: #6b7280;
+            margin-top: 64px;
+            font-size: 13px;
+            color: #64748b;
         }
     </style>
 </head>
 <body>
 
-<h1>Harmoniq</h1>
-<p>
-A calming sound and frequency app designed for relaxation, focus, and mindfulness.
-</p>
+    <div class="container">
+        <h1>Harmoniq</h1>
+        <p class="subtitle">Quiet your mind. Find your frequency.</p>
+        
+        <p>A minimalist soundscape tool designed for relaxation, focus, and deep rest using Solfeggio tones.</p>
 
-<a href="privacy.html">Privacy Policy</a>
+        <div class="links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="mailto:harmoniq213.app@gmail.com">Contact Support</a>
+        </div>
+    </div>
 
-<footer>
-    © 2025 Harmoniq. All rights reserved.
-</footer>
+    <footer>
+        © 2026 Annnon Software Development Services. All rights reserved.
+    </footer>
 
 </body>
 </html>
